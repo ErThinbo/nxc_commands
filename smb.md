@@ -13,7 +13,10 @@ Commands for SMB enumeration:
 
       nxc smb --list-modules        
 
+The output of this command will give us the path where the JSON file is saved.
+      
       nxc smb 10.10.10.10 -u 'user' -p 'pass' -M spider_plus
+
 
 
   --Dumping All Files--
@@ -22,3 +25,4 @@ Commands for SMB enumeration:
 
 
     nxc smb 10.10.10.10 -u 'user' -p 'pass' -M spider_plus -o DOWNLOAD_FLAG=True
+
