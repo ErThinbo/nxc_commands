@@ -1,5 +1,0 @@
-Commands for SMB enumeration:
-
-  Enumerate shared resources
-
-  ```bash nxc smb <IP TARGET> -u <USER> -p <PASSWORD> --shares ```
